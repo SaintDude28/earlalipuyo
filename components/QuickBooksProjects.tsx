@@ -73,7 +73,6 @@ export default function QuickBooksProjects() {
             description={project.description}
             skills={project.skills}
             reverse={index % 2 === 1}
-            onClick={() => setSelectedIndex(index)}
           />
         ))}
       </section>

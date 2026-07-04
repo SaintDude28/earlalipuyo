@@ -110,7 +110,6 @@ export default function XeroProjects() {
 
       <ProjectModal
         project={selectedProject}
-        onClose={() => setSelectedIndex(null)}
         onPrevious={() =>
           setSelectedIndex((prev) =>
             prev === null
