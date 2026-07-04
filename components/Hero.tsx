@@ -98,7 +98,7 @@ export default function Hero() {
           <div className="overflow-hidden rounded-[40px] bg-white p-5 shadow-2xl">
 
             <Image
-              src="/images/profile/profile.png"
+              src="/images/profile/Profile.png"
               alt="Hope Earl Alipuyo"
               width={430}
               height={560}
