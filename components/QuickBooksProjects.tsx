@@ -76,25 +76,6 @@ export default function QuickBooksProjects() {
           />
         ))}
       </section>
-
-      <ProjectModal
-        project={selectedProject}
-        onClose={() => setSelectedIndex(null)}
-        onPrevious={() =>
-          setSelectedIndex((prev) =>
-            prev === null
-              ? 0
-              : (prev - 1 + projects.length) % projects.length
-          )
-        }
-        onNext={() =>
-          setSelectedIndex((prev) =>
-            prev === null
-              ? 0
-              : (prev + 1) % projects.length
-          )
-        }
-      />
     </>
   );
 }

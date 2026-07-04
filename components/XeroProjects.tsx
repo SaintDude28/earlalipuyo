@@ -106,24 +106,6 @@ export default function XeroProjects() {
           />
         ))}
       </section>
-
-      <ProjectModal
-        project={selectedProject}
-        onPrevious={() =>
-          setSelectedIndex((prev) =>
-            prev === null
-              ? 0
-              : (prev - 1 + projects.length) % projects.length
-          )
-        }
-        onNext={() =>
-          setSelectedIndex((prev) =>
-            prev === null
-              ? 0
-              : (prev + 1) % projects.length
-          )
-        }
-      />
     </>
   );
 }
