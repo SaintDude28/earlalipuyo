@@ -103,7 +103,6 @@ export default function XeroProjects() {
             description={project.description}
             skills={project.skills}
             reverse={index % 2 === 1}
-            onClick={() => setSelectedIndex(index)}
           />
         ))}
       </section>
